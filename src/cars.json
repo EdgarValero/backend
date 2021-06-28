@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "marca": "Ford",
+        "modelo": "Fiesta Power",
+        "motor": "2145BADF",
+        "transmision": "2223014KJ",
+        "tanques": 1,
+        "ruedas": 4,
+        "puertas": 4,
+        "ventanas": 6,
+        "asientos": 5,
+        "carroceria": "79456HF"
+    },
+    {
+        "id": 2,
+        "marca": "Chevrolet",
+        "modelo": "Aveo",
+        "motor": "v8",
+        "transmision": "0001214BHF",
+        "tanques": 1,
+        "ruedas": 4,
+        "puertas": 2,
+        "ventanas": 5,
+        "asientos": 4,
+        "carroceria": "1230GFT"
+    }
+]
