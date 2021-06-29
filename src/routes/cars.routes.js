@@ -10,7 +10,7 @@ router.get('/build', async (req, res) => {
   cars.forEach(async car => {
     console.time('Tiempo de Ejecucion del auto ' + car.marca + ' ' + car.modelo);
     await CarsController.montarMotor(car.motor);
-    await CarsController.montarMotor(car.transmision);
+    await CarsController.montarTransmision(car.transmision);
     console.log('Auto ' + car.modelo + ' Marca ' + car.marca + ' construido');
     console.timeEnd('Tiempo de Ejecucion del auto ' + car.marca + ' ' + car.modelo);
   });
